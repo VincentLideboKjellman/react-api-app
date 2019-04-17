@@ -6,9 +6,12 @@ import './Header.css'
 const Header = (props) => {
 
     return(
-            <h1>{props.header}</h1>
+        <div>
+            <h1 className="header-style">{props.header}</h1>
+        </div>
     )
 
 }
+
 
 export default Header;

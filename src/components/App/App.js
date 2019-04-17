@@ -9,6 +9,7 @@ class App extends Component {
       <SiteContainer>
       
       <Header header="Meme Extractor"></Header>
+
       </SiteContainer>
 
     );
