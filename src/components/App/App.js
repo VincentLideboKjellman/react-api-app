@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from '../Header';
+import SiteContainer from '../SiteContainer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-        </header>
-      </div>
+      <SiteContainer>
+      
+      <Header header="Meme Extractor"></Header>
+      </SiteContainer>
+
     );
   }
 }
