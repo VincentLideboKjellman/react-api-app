@@ -1,7 +1,12 @@
 .header-style{
-    padding-top:3%;
+    /* padding-top:3%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
     color: #ffecb3;
-    border-bottom: 1px solid #ffecb3;
+    /* border-bottom: 1px solid #ffecb3; */
     font-size: 400%;
-   
+    /* width: 60%; */
+    /* padding-right:40%; */
 }

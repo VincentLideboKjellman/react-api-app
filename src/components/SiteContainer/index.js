@@ -13,14 +13,11 @@ class SiteContainer extends React.Component {
     render(){
         return(
            
+
             <div className="site-container">
             <Header header="Gif Extractor"></Header>
             
             <Button buttonText="Get A Random Gif!"></Button>
-
-
-
-
 
             </div>
         )

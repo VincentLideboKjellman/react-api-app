@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
+import './Button.css';
 
 
 const Button = (props) => {
 
     return(
-        <button classNsme="gif-button" type="button">{props.buttonText}</button>
+        <div>
+            <button className="gif-button" type="button">{props.buttonText}</button>
+        </div>
     )
 }
 

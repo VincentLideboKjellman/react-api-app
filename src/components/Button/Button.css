@@ -1,0 +1,33 @@
+
+.gif-button{
+    color: #ffecb3;
+    background-color: #393C4C;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: #ffecb3 1px solid;
+    
+}
+
+.gif-button:hover{
+    color: #393C4C;
+    background-color: #ffecb3;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.gif-button:active{
+    color: #393C4C;
+    background-color: #ffecb3;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    transform: scale(0.95);
+}
