@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './SiteContainer.css';
 import Header from '../Header';
 import Button from '../Button';
+import GifWindow from '../GifWindow';
 
 class SiteContainer extends React.Component {
 
@@ -16,9 +17,10 @@ class SiteContainer extends React.Component {
 
             <div className="site-container">
             <Header header="Gif Extractor"></Header>
-            
-            <Button buttonText="Get A Random Gif!"></Button>
 
+            <GifWindow></GifWindow>
+            
+            
             </div>
         )
     }
