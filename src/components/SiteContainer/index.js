@@ -16,7 +16,7 @@ class SiteContainer extends React.Component {
            
 
             <div className="site-container">
-            <Header header="Gif Extractor"></Header>
+            <Header header="Doggo Gif Extractor"></Header>
 
             <GifWindow></GifWindow>
             

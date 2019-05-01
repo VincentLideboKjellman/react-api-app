@@ -22,7 +22,7 @@ class GifWindow extends React.Component {
     fetchGif(event) {
 
         event.stopPropagation()
-        const API = 'https://api.giphy.com/v1/gifs/random?&api_key=xq1QYQUuQza2EN6C84vpKA2BU2gDYIPG';
+        const API = 'https://api.giphy.com/v1/gifs/random?&api_key=xq1QYQUuQza2EN6C84vpKA2BU2gDYIPG&tag=dog';
         // const apikey = 'xq1QYQUuQza2EN6C84vpKA2BU2gDYIPG';
 
         fetch(API)
@@ -47,11 +47,10 @@ class GifWindow extends React.Component {
         return(
             <div className="gif-container">
             
-                <img src={this.state.gif} alt="A Gif Pic Should Be Here"></img>
-
-                {/* <button onClick={this.fetchGif}>get gif</button> */}
+                <img className="gif-box" src={this.state.gif} alt="A Gif Pic Should Be Here"></img>
 
                 <Button updateGif={this.fetchGif} buttonText="Get A Random Gif!"></Button>
+
 
             </div>
         )
