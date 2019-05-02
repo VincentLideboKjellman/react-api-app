@@ -49,7 +49,7 @@ class GifWindow extends React.Component {
             
                 <img className="gif-box" src={this.state.gif} alt="A Gif Pic Should Be Here"></img>
 
-                <Button updateGif={this.fetchGif} buttonText="Get A Random Gif!"></Button>
+                <Button updateGif={this.fetchGif} buttonText="Get A Random Doggo!"></Button>
 
 
             </div>
