@@ -11,7 +11,7 @@ _Languages Used:_ <br/>
 _HTML CSS Javascript (React) Markdown <- Readme.md_
 
 Live preview:
-https://doggo-gif-extractor.netlify.com/
+https://doggo-gif.netlify.com/
 
 [Code License: MIT](https://choosealicense.com/licenses/mit/)
 
